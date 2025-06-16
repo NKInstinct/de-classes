@@ -1,0 +1,47 @@
+{
+	"id": "de-classes",
+	"title": "Dying Earth Sheets",
+	"description": "Sheets for Dying Earth (DCC) in FoundryVTT!",
+	"version": "0.1.0",
+	"compatibility": {
+		"maximum": "12",
+		"minimum": "12",
+		"maximum": "12"
+	},
+	"authors": [
+		{
+			"name": "Andrew Wight"
+		}
+	],
+	"relationships": {
+		"systems": [
+			{
+				"id": "dcc",
+				"type": "system"
+			}
+		]
+	},
+	"esmodules": [
+		"module/de-classes.js"
+	],
+	"flags": {
+		"hotReload": {
+			"extensions": ["js", "css", "html", "json"]
+		}
+	},
+	"styles": [
+		"styles/de.css"
+	],
+	"languages": [
+		{
+			"lang": "en",
+			"name": "English",
+			"path": "lang/en.json"
+		}
+	],
+	"url": "https://github.com/nkinstinct/de-classes",
+	"manifest": "https://raw.githubusercontent.com/nkinstinct/de-classes/main/module.json",
+	"download": "https://github.com/nkinstinct/de-classes/archive/main.zip",
+	"license": "LICENSE.txt"
+}
+
