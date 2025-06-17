@@ -8,7 +8,7 @@ import DCCActorSheet from '/systems/dcc/module/actor-sheet.js'
  * Extend the zero-level/NPC sheet for a Witch
  * @extends {DCCActorSheet}
  */
-class DCCActorSheetWitch extends DCCActorSheet {
+class ActorSheetWitch extends DCCActorSheet {
 	static height = 635
 
 	/** @override */

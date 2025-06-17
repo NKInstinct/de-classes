@@ -12,7 +12,7 @@ Hooks.once('init', async function () {
 	// Register sheet application classes
 	Actors.registerSheet('de-witch', WitchSheets.ActorSheetWitch, {
 		types: ['Player'],
-		label: 'Witch.ActorSheetWitch'
+		label: 'DE.ActorSheetWitch'
 	})
 
 	// Register shared templates for Dying Earth characters
