@@ -1,0 +1,3 @@
+a[data-tab='witch']::before {
+	content: '\f3ed';
+}
