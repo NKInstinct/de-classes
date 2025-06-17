@@ -1,6 +1,10 @@
 {
 	"DE.ActorSheetWitch": "Witch",
 	"DE.AntitheticSpells": "Antithetic Spells",
+	"DE.DemonicTaint": "Demonic Taint",
+	"DE.DemonicTaintHint": "Current Demonic Taint value",
+	"DE.HeldSpellburn": "Held Spellburn",
+	"DE.HeldSpellburnHint": "Held points of spellburn from rituals",
 	"DE.Pact": "Pact",
 	"DE.PactHint": "Enter Name of Pact Being Here",
 	"DE.PactWeapon": "Pact Weapon",

@@ -57,6 +57,22 @@ class ActorSheetWitch extends DCCActorSheet {
 				}
 			})
 		}
+		if (!data.system.class.heldspellburn) {
+			this.actor.update({
+				'system.class.heldspellburn': {
+					label: 'DE.HeldSpellburn',
+					value: 0
+				}
+			})
+		}
+		if (!data.system.class.demonictaint) {
+			this.actor.update({
+				'system.class.demonictaint': {
+					label: 'DE.DemonicTaint',
+					value: 0
+				}
+			})
+		}
 
 		return data
 	}
