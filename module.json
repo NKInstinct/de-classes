@@ -2,7 +2,7 @@
 	"id": "de-classes",
 	"title": "Dying Earth Sheets",
 	"description": "Sheets for Dying Earth (DCC) in FoundryVTT!",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"compatibility": {
 		"maximum": "12",
 		"minimum": "12",
