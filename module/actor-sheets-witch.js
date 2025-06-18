@@ -73,6 +73,7 @@ class ActorSheetWitch extends DCCActorSheet {
 				}
 			})
 		}
+		/*
     if (!data.system.class.demoniccorruption) {
 			this.actor.update({
 				'system.class.demoniccorruption': {
@@ -89,6 +90,7 @@ class ActorSheetWitch extends DCCActorSheet {
 				}
 			})
 		}
+		*/
 		return data
 	}
 }
