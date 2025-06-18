@@ -1,6 +1,8 @@
 {
 	"DE.ActorSheetWitch": "Witch",
 	"DE.AntitheticSpells": "Antithetic Spells",
+	"DE.Curses": "Curses",
+	"DE.DemonicCorruption": "Demonic Corruption",
 	"DE.DemonicTaint": "Demonic Taint",
 	"DE.DemonicTaintHint": "Current Demonic Taint value",
 	"DE.HeldSpellburn": "Held Spellburn",

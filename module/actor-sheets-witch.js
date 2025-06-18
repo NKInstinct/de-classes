@@ -73,7 +73,22 @@ class ActorSheetWitch extends DCCActorSheet {
 				}
 			})
 		}
-
+    if (!data.system.class.demoniccorruption) {
+			this.actor.update({
+				'system.class.demoniccorruption': {
+					label: 'DE.DemonicCorruption',
+					value: ' '
+				}
+			})
+		}
+		if (!data.system.class.curses) {
+			this.actor.update({
+				'system.class.curses': {
+					label: 'DE.Curses',
+					value: ' '
+				}
+			})
+		}
 		return data
 	}
 }

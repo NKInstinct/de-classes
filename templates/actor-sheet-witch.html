@@ -107,88 +107,19 @@
 						</div>
           </div>
         </div>
-
-        {{#dccPackExists "dcc-core-book.dcc-core-journals"}}
-          <div class="label-font" style="margin-top: 2px;">{{{system.class.classLink}}}</div>
-        {{/dccPackExists}}
       </div>
       <div class="tab-body grid-container">
-        <div class="dark-border grid-col-span-12">
-
+        <div class="grid-col-span-12 curses">
+          <div class="dark-title">{{localize "DE.Curses"}}</div>
+          <div class="notes">
+            {{editor notesHTML target="system.class.curses" engine="prosemirror" button=true editable=editable}}
+          </div>
         </div>
-
-        <div class="grid-col-span-12 cleric-table">
-          <table class="dark-border">
-            <thead class="dark-title">
-            <tr>
-              <th>Lay On Hands (alignment step)</th>
-              <th>12</th>
-              <th>14</th>
-              <th>20</th>
-              <th>22+</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-              <td>(same)</td>
-              <td>2 dice</td>
-              <td>3 dice</td>
-              <td>4 dice</td>
-              <td>5 dice</td>
-            </tr>
-            <tr>
-              <td>(adjacent)</td>
-              <td>1 die</td>
-              <td>2 dice</td>
-              <td>3 dice</td>
-              <td>4 dice</td>
-            </tr>
-            <tr>
-              <td>(opposed)</td>
-              <td>1 die</td>
-              <td>1 die</td>
-              <td>2 dice</td>
-              <td>3 dice</td>
-            </tr>
-            </tbody>
-          </table>
-        </div>
-        <div class="grid-col-span-12 cleric-table">
-          <table class="dark-border">
-            <thead class="dark-title">
-            <tr>
-              <th>Condition</th>
-              <th>Dice</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-              <td>Broken limbs</td>
-              <td>1 die</td>
-            </tr>
-            <tr>
-              <td>Organ damage</td>
-              <td>2 dice</td>
-            </tr>
-            <tr>
-              <td>Disease</td>
-              <td>2 dice</td>
-            </tr>
-            <tr>
-              <td>Paralysis</td>
-              <td>3 dice</td>
-            </tr>
-            <tr>
-              <td>Poison</td>
-              <td>4 dice</td>
-            </tr>
-            <tr>
-              <td>Blindness/Deafness</td>
-              <td>5 dice</td>
-            </tr>
-            </tbody>
-          </table>
-        </div>
+        <div class="grid-col-span-12 corruptions">
+          <div class="dark-title">{{localize "DE.DemonicCorruption}}</div>
+          <div class="notes">
+            {{editor notesHTML target="system.class.demoniccorruption" engine="prosemirror" button=true editable=editable}}
+          </div>
       </div>
     </div>
 
