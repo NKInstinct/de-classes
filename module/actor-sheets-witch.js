@@ -16,8 +16,6 @@ class ActorSheetWitch extends DCCActorSheet {
 	 const data = super.getData() **/
 	async getData (options) {
 		const data = await super.getData(options)
-		this.options.template = 'modules/de-classes/templates/actor-sheet-witch.html'
-		this.options.classes = ['dcc', 'sheet', 'actor', 'pc']
 		if (data.system.details.sheetClass !== 'Witch') {
 			this.actor.update({
 				'system.class.className': game.i18n.localize('DE.Witch')
@@ -61,7 +59,7 @@ class ActorSheetWitch extends DCCActorSheet {
 			this.actor.update({
 				'system.class.heldspellburn': {
 					label: 'DE.HeldSpellburn',
-					value: 0
+					value: '0'
 				}
 			})
 		}
@@ -69,11 +67,10 @@ class ActorSheetWitch extends DCCActorSheet {
 			this.actor.update({
 				'system.class.demonictaint': {
 					label: 'DE.DemonicTaint',
-					value: 0
+					value: '0'
 				}
 			})
 		}
-		/*
     if (!data.system.class.demoniccorruption) {
 			this.actor.update({
 				'system.class.demoniccorruption': {
@@ -90,7 +87,6 @@ class ActorSheetWitch extends DCCActorSheet {
 				}
 			})
 		}
-		*/
 		return data
 	}
 }
